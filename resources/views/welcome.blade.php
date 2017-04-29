@@ -4,24 +4,17 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>My Resume HTML Bootstrap Template</title>
+    <title>Frédéric Delon CV</title>
 
-    <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/font-awesome.css">
     <link rel="stylesheet" href="css/animate.css">
-    <link href="css/app.css" rel="stylesheet">
+    <link href="{{ mix('css/app.css') }}" rel="stylesheet">
     
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
-    <!-- =======================================================
-        Theme Name: MyResume
-        Theme URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
-        Author: BootstrapMade
-        Author URL: https://bootstrapmade.com
-    ======================================================= -->
+    
   </head>
   <body>
     <div class="wrapper" id="wrapper">
@@ -30,8 +23,8 @@
                 <div class="parallax text-center" style="background-image: url(img/1.jpg);">
                     <div class="parallax-pattern-overlay">
                         <div class="container text-center" style="height:600px;padding-top:170px;">
-                            <a href="#"><img id="site-title" class=" wow fadeInDown" wow-data-delay="0.0s" wow-data-duration="0.9s" src="img/2.png" alt=""/></a>
-                            <h2 class="intro"><a href="index.html">My Resume</a></h2>
+                            <a href="#"><img id="site-title" class=" wow fadeInDown" wow-data-delay="0.0s" wow-data-duration="0.9s" src="img/fred4.jpg" alt=""/></a>
+                            <h2 class="intro"><a href="index.html">Delon Frédéric</a></h2>
                         </div>
                     </div>
                 </div>
@@ -46,7 +39,7 @@
                                         <div class="navbar-collapse collapse">
                                             <ul class="nav navbar-nav">
                                                 <li class="menuItem active"><a href="#wrapper">Home</a></li>
-                                                <li class="menuItem"><a href="#aboutus">About Us</a></li>
+                                                <li class="menuItem"><a href="#aboutus">A propos de moi</a></li>
                                                 <li class="menuItem"><a href="#specialties">Skills</a></li>
                                                 <li class="menuItem"><a href="#gallery">Portfolio</a></li>
                                                 <li class="menuItem"><a href="#feedback">Education</a></li>
@@ -67,29 +60,25 @@
         <div class="container">
             <div class="heading text-center">               
                 <h2>About Me</h2>               
-                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis dolor sit amet lacus ultricies rutrum. Curabitur vitae fringilla elit. Sed at nunc congue, cursus erat ac, pellentesque eros. Etiam ullamcorper sed lectus sit amet mattis. Morbi justo sem, cursus nec convallis a, pellentesque eu mi. Morbi hendrerit ultricies ligula </h3>
+                <h3>Je suis delon frédéric , j'ai actuelment 30ans et je suis pationné par le monde du numérique ! 
+                je suis actuelement en auto formation continu en tant que dev web junior et je suis a la recherche d'un stage   ou  d'une  alternance en entreprise  sur toulouse pour parfaire mon savoir et amélioré mes compétences !  </h3>
             </div>          
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 ">
                     <div class="papers text-center">
-                        <img src="img/team/1.jpg" alt=""><br/>
-                        <a href="#"><b>Download my resume</b></a>
-                        <h4 class="">My Teacher John Vandeley</h4>
+                        <img src="img/fred2.jpg" alt=""><br/>
+                        <a href="#"><b>Télécharger mon cv </b></a>
+                        <h4 class="">Dev web junior</h4>
                         <p>
-                            Have you ever felt worried that your party will not raise up to your guest expectations? In design, vertical rhythm is the structure that guides a reader's eye through the content. Good vertical rhythm makes a layout more balanced and beautiful and its content more readable. The time signature in sheet music visually depicts a song's rhythm, while for us, the lines of the baseline grid depict the rhythm of our content and give us guidelines.
+                            voici des détails sur moi ! 
+                            j'aime le travail d'équipe .
+                            j'aime l'idée d'avancer dans le monde du dev .
+                            je souhaite parcourir plusieur technologie  et les apprendre  .
+                            Simplement curieux de nature et aimant créé des project a partir d'une machine et d'un cerveau . 
                         </p>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="papers text-center">
-                        <img src="img/team/2.jpg" alt=""><br/>
-                        <a href="#"><b>Download my resume</b></a>
-                        <h4 class="">My Teacher Stephanie Hellen</h4>
-                        <p>
-                        Have you ever felt worried that your party will not raise up to your guest expectations? In design, vertical rhythm is the structure that guides a reader's eye through the content. Good vertical rhythm makes a layout more balanced and beautiful and its content more readable. The time signature in sheet music visually depicts a song's rhythm, while for us, the lines of the baseline grid depict the rhythm of our content and give us guidelines.
-                        </p>
-                    </div>
-                </div>
+                
             </div>
         </div>
     </section>
@@ -99,8 +88,9 @@
     <section class="specialties" id="specialties">
         <div class="container">
             <div class="heading text-center">
-                <h2>Our Skills</h2>
-                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis dolor sit amet lacus ultricies rutrum. Curabitur vitae fringilla elit. Sed at nunc congue, cursus erat ac, pellentesque eros. Etiam ullamcorper sed lectus sit amet mattis. Morbi justo sem, cursus nec convallis a, pellentesque eu mi. Morbi hendrerit ultricies ligula </h3>
+                <h2>Mon Skills</h2>
+                <h3>Voici ici un petit apercu de mes compétence en tant que dev web junior.
+                les résultat sont basé sur le temps de ma formation Simplon dont je vais  vous présenté un peu plus bas   </h3>
             </div>
         </div>  
             
@@ -109,35 +99,43 @@
                 <div class="col-md-6 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.3s"">
                     <div class="skill">                      
                         <div class="progress-wrap">
-                            <h3>Graphic Design</h3>
+                            <h3>Html</h3>
                             <div class="progress">
-                              <div class="progress-bar  color1" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 85%">
-                                <span class="bar-width">85%</span>
+                              <div class="progress-bar  color1" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 95%">
+                                <span class="bar-width">95%</span>
                               </div>
 
-                            </div>
-                        </div>
-
-                        <div class="progress-wrap">
-                            <h3>HTML</h3>
-                            <div class="progress">
-                              <div class="progress-bar color2" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 95%">
-                               <span class="bar-width">95%</span>
-                              </div>
                             </div>
                         </div>
 
                         <div class="progress-wrap">
                             <h3>CSS</h3>
                             <div class="progress">
-                              <div class="progress-bar color3" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
-                                <span class="bar-width">80%</span>
+                              <div class="progress-bar color2" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 85%">
+                               <span class="bar-width">85%</span>
                               </div>
                             </div>
                         </div>
 
                         <div class="progress-wrap">
-                            <h3>Wordpress</h3>
+                            <h3>JAVASCRIPT</h3>
+                            <div class="progress">
+                              <div class="progress-bar color3" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+                                <span class="bar-width">70%</span>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="progress-wrap">
+                            <h3>Laravel</h3>
+                            <div class="progress">
+                              <div class="progress-bar color1" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 95%">
+                                <span class="bar-width">95%</span>
+                              </div>
+                            </div>
+                        </div>
+
+                        <div class="progress-wrap">
+                            <h3>PHP</h3>
                             <div class="progress">
                               <div class="progress-bar color4" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
                                 <span class="bar-width">90%</span>
@@ -148,7 +146,7 @@
                 </div>
                 
                 <div class="col-md-6 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.6s"">
-                    <img src="img/team/6.jpg" class="img-responsive">
+                    <img src="img/slide.jpg" class="img-responsive">
                 </div>              
             </div>  
         </div>
@@ -397,8 +395,8 @@
     <section class="feedback" id="feedback">
         <div class="container">
             <div class="heading">
-                <h2>Education</h2>
-                <h3>Phasellus non dolor nibh. Nullam elementum tellus pretium feugiat.<br>
+                <h2>Formation</h2>
+                <h3>Simplon toulouse.<br>
                 Cras dictum tellus dui, vitae sollicitudin ipsum tincidunt in. Sed tincidunt tristique enim sed sollcitudin.</h3>
             </div>          
         </div>
@@ -407,8 +405,8 @@
             <div class="col-md-4 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.3s">
                 <div class="text-center">
                     <div class="hi-icon-wrap hi-icon-effect">                                               
-                        <h4>MASTER OF COMPUTER SCIENCE</h4>
-                        <h5>FEB 2012 - DEC 2014</h5>
+                        <h4>Dev Web / app mobile</h4>
+                        <h5>Septembre 2016 - Décembre 2017</h5>
                         <i class="fa fa-laptop"></i>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
                     </div>
@@ -418,7 +416,7 @@
             <div class="col-md-4 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.6s">
                 <div class="text-center">
                     <div class="hi-icon-wrap hi-icon-effect">                                               
-                        <h4>MASTER OF COMPUTER SCIENCE</h4>
+                        <h4>Intérim</h4>
                         <h5>FEB 2012 - DEC 2014</h5>
                         <i class="fa fa-book"></i>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
@@ -429,7 +427,7 @@
             <div class="col-md-4 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.9s">
                 <div class="text-center">
                     <div class="hi-icon-wrap hi-icon-effect">                                               
-                        <h4>MASTER OF COMPUTER SCIENCE</h4>
+                        <h4>Maintenance général</h4>
                         <h5>FEB 2012 - DEC 2014</h5>
                         <i class="fa fa-gear"></i>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
@@ -438,12 +436,7 @@
             </div>
         </div>
         
-        <div class="container">
-            <div class="row">
-                <blockquote>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages." <cite>Jogn De, Programming<br/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></cite> </blockquote>
-                <blockquote>Have you ever felt worried that your party will not raise up to your guest expectations? In design, vertical rhythm is the structure that guides a reader’s eye through the content. Good vertical rhythm makes a layout more balanced and beautiful and its content more readable. The time signature in sheet music visually depicts a song’s rhythm, while for us, the lines of the baseline grid depict the rhythm of our content and give us guidelines. <cite>Marta Kay, Business Development<br/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></cite> </blockquote>
-            </div>
-        </div>      
+        
     </section>
     
     <!--education-->
@@ -460,21 +453,21 @@
             <div class="row">
                 <div class="col-md-7">
                     <div class="map">               
-                        <div id="google-map" data-latitude="40.713732" data-longitude="-74.0092704"></div>
+                        <div id="google-map" data-latitude="43.606148" data-longitude="1.432324"></div>
                     </div>
                 </div>
                 
                 <div class="contact-info">
                     <div class="col-md-5">
-                        <h4>My Contact Info</h4>
+                        <h4>Mes infos de contact</h4>
                         <h5>Nullam elementum tellus pretium feugiat</h5>
                         <p>Fusce fermen tum neque a rutrum varius odio pede 
                         ullamcorp-er tellus ut dignissim nisi risus non tortor</p>
                         <ul>
-                            <li><i class="fa fa-home fa-2x"></i> Home # 38, Suite 54 Elizebth Street</li>
-                            <li><i class="fa fa-phone fa-2x"></i> +38 000 129900</li>
-                            <li><i class="fa fa-envelope fa-2x"></i> info@domain.net</li>
-                            <li><i class="fa fa-download fa-2x"></i> Download My Resume</li>
+                            <li><i class="fa fa-home fa-2x"></i> 9 chemin du renard 31100 Toulouse</li>
+                            <li><i class="fa fa-phone fa-2x"></i> 0677990802</li>
+                            <li><i class="fa fa-envelope fa-2x"></i> delon.frederic.pro.job@gmail.com</li>
+                            <li><i class="fa fa-download fa-2x"></i> Télécharger mon CV</li>
                         </ul>
                     </div>
                 </div>
@@ -504,7 +497,7 @@
                         <div class="validation"></div>
                     </div>
                     
-                    <div class="text-center"><button type="submit" class="contact submit">Send Message</button></div>
+                    <div class="text-center"><button type="submit" class="contact submit">Envoyer Message</button></div>
                 </form>
               </div>
           </div>
@@ -521,18 +514,12 @@
                 <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                 <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                <li><a href="#"><i class="fa fa-flickr"></i></a></li>
+                <li><a href="#"><i class="fa fa-github"></i></a></li>
+                
             </ul>
-            <p>&copy; MyResume Theme. All Rights Reserved.</p>
+            <p>&copy; MyResume Delon Frederic. All Rights Reserved.</p>
             <div class="credits">
-                <!-- 
-                    All the links in the footer should remain intact. 
-                    You can delete the links only if you purchased the pro version.
-                    Licensing information: https://bootstrapmade.com/license/
-                    Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=MyResume
-                -->
-                <a href="https://bootstrapmade.com/free-business-bootstrap-themes-website-templates/">Business Bootstrap Themes</a> by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                
             </div>
         </div>
     </section>
@@ -540,7 +527,7 @@
     </div>
     <script src="js/jquery.js"></script>
     <script src="js/modernizr.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    
     <script src="js/bootstrap.min.js"></script>
     <script src="js/menustick.js"></script>
     <script src="js/parallax.js"></script>
@@ -595,7 +582,6 @@ $(document).ready( function() {
     google.maps.event.addDomListener(window, 'load', initialize_google_map);
 });
 </script>
-<script src="contactform/contactform.js"></script>
 
 
 </body>
